@@ -5,20 +5,20 @@ Finds the shortest path between 2 webpages by traversing the links on each page
 0) If you want, make a new folder somewhere in your file structure where you can put this project
 
 1) Go to the main github project page (https://github.com/coffeeicecubes/link-degrees/) and click the green button labelled 'Code' (by 'Go to file')
-* A window will pop up with 'Clone' and 'HTTPS' - ignore those and click 'Download ZIP' at the bottom
+	- A window will pop up with 'Clone' and 'HTTPS' - ignore those and click 'Download ZIP' at the bottom
 
 2) The source code has been downloaded as link-degrees-main.zip
-* Go to your Downloads folder though File Explorer (Windows) or Files (Linux) or Finder (MacOS).
-* On windows:
+	- Go to your Downloads folder though File Explorer (Windows) or Files (Linux) or Finder (MacOs).
+* On Windows:
 	- Right-click the link-degrees-main.zip folder and then click 'Extract All'
 	- Select a destination to extract to*
 * On Linux:
 	* Right-click the link-degrees-main.zip folder and then click 'Open with Archive Manager'
 	* In the box labelled 'Location' put the location where you want to store the files\*
-* On Mac:
+* On MacOs:
 	* Double click the link-degrees-main.zip folder
 	* There will now be an unzipped folder with the same name in your Downloads directory
-	* Move that folder to a location*
+	* Move that folder to a location\*
 
 \*you can put the source files wherever you want, I recommend a 'Python/Projects' folder in Home or if you have a 'random_crap' folder you can put it there, or you can leave these in Downloads, whatever
 
@@ -42,4 +42,4 @@ Finds the shortest path between 2 webpages by traversing the links on each page
 - Running degs.py creates a 'log.txt' file in the link-degrees-main folder which has notes follows the recursion and general proceduring
 - The source code is pretty heavily commented, so it should hopefully be easy to understand
 - The main idea is that the links on each page are put in a queue as they are found, and then they are processed through Breadth First Search which finds the shortest path from source to target. Unfortunately this particular method doesn't lend itself to weighting the nodes (links), which is something I spent a few hours attempting to implement
-- ~ I learned a lot about search algorithms, recursion and classful programming through this project (Turns out the object oriented part of Python has interesting syntax, with unique dissimilarities to other languages) ~
+~ I learned a lot about search algorithms, recursion and classful programming through this project (Turns out the object oriented part of Python has interesting syntax, with unique dissimilarities to other languages) ~
