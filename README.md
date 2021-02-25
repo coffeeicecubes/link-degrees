@@ -42,7 +42,7 @@ Finds the shortest path between 2 webpages by traversing the links on each page
 - Edit the links in the html files in www/ or change the 'source' and 'dest' variables in the source code if you wish to test the program further
 - The source code is pretty heavily commented, so it should hopefully be easy to understand
 - The main idea is that the links on each page are put in a queue as they are found, and then they are processed through Breadth First Search which finds the shortest path from source to target. Unfortunately this particular method doesn't lend itself to weighting the nodes (links), which is something I spent a few hours attempting to implement
-- This TECHNCALLY works on real webpages but if you want to run it on, say, wikipedia, the recursion limit will have to be increased by quite a bit and it'll take a few minutes to find a path
+- This TECHNCALLY works on real webpages but if you want to run it on, say, wikipedia, the recursion limit will have to be increased by quite a bit and it'll take a few minutes to find a path (logs look epic with real websites though!)
 - Email me with any questions
 ~ I learned a lot about search algorithms, recursion and classful programming, github markdown, and debugging through this project (Turns out the object oriented part of Python has interesting syntax, with unique dissimilarities to other languages) ~
 Thanks!
