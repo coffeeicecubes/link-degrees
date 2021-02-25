@@ -30,14 +30,18 @@ Finds the shortest path between 2 webpages by traversing the links on each page
 		* python3 --version (output should be similar to 'Python 3.8.5'
 		* pip3 --version (output should be similar to 'pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)')
 	* Install dependencies (sorry about that, I just really enjoy webscraping projects which require a http handler and html parser)
-		* To install: write or paste (ctrl+shift+v) 'pip3 install requests && pip3 install bs4' into your terminal
+		* To install: write or paste (ctrl+shift+v) 'pip3 install requests && pip3 install beautifulsoup4' into your terminal
 	* Start a local server to test on
-		* type 'python3 -m http.server 9999' \[This starts an http server in the current folder so that the program can access 'www' folder of test files. The server is on 127.0.0.1 <- your local machine aka localhost, not on the internet. This basically reroutes packets to yourself, on port 9999 - 9999 is just a random port that isn't specifically used for anything\]
-	* Run the program!
+		* Enter 'python3 -m http.server 9999' into your terminal \[This starts an http server in the current folder so that the program can access 'www' folder of test files. The server is on 127.0.0.1 <- your local machine aka localhost, not on the internet. This basically reroutes packets to yourself, on port 9999 - 9999 is just a random port that isn't specifically used for anything\]
+	* (open a new terminal window since the server is now outputting logs in the one you were in before) and run the program!
 		* type 'python3 degs.py'
 
 # Notes
+- CTRL-C to stop the server you created
 - Running degs.py creates a 'log.txt' file in the link-degrees-main folder which has notes follows the recursion and general proceduring
+- Edit the links in the html files in www/ or change the 'source' and 'dest' variables in the source code if you wish to test the program further
 - The source code is pretty heavily commented, so it should hopefully be easy to understand
 - The main idea is that the links on each page are put in a queue as they are found, and then they are processed through Breadth First Search which finds the shortest path from source to target. Unfortunately this particular method doesn't lend itself to weighting the nodes (links), which is something I spent a few hours attempting to implement
+- Email me with any questions
 ~ I learned a lot about search algorithms, recursion and classful programming, github markdown, and debugging through this project (Turns out the object oriented part of Python has interesting syntax, with unique dissimilarities to other languages) ~
+Thanks!
