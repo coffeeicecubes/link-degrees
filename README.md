@@ -4,11 +4,11 @@ Finds the shortest path between 2 webpages by traversing the links on each page
 # Basic Setup
 0) If you want, make a new folder somewhere in your file structure where you can put this project
 
-1) Click the green button labelled 'Code' (by 'Go to file')
-A window will pop up with 'Clone' and 'HTTPS' - ignore those and click 'Download ZIP' at the bottom
+1) Go to the main github project page (https://github.com/coffeeicecubes/link-degrees/) and click the green button labelled 'Code' (by 'Go to file')
+* A window will pop up with 'Clone' and 'HTTPS' - ignore those and click 'Download ZIP' at the bottom
 
 2) The source code has been downloaded as link-degrees-main.zip
-Go to your Downloads folder though File Explorer (Windows) or Files (Linux) or Finder (MacOS).
+* Go to your Downloads folder though File Explorer (Windows) or Files (Linux) or Finder (MacOS).
 * On windows:
 	- Right-click the link-degrees-main.zip folder and then click 'Extract All'
 	- Select a destination to extract to*
