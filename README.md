@@ -2,7 +2,7 @@
 Finds the shortest path between 2 webpages by traversing the links on each page
 
 # Basic Setup
-0) If you want, make a new folder somewhere in your file structure where you can put this\n
+0) If you want, make a new folder somewhere in your file structure where you can put this
 
 1) Click the green button labelled 'Code' (by 'Go to file')
 A window will pop up with 'Clone' and 'HTTPS' - ignore those and click 'Download ZIP' at the bottom
