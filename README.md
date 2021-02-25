@@ -22,7 +22,7 @@ Finds the shortest path between 2 webpages by traversing the links on each page
 
 ### Download of source is complete!
 
-3) Now open your terminal and navigate to the location where you saved your files. You can do this with cd: 'cd' once to go to your home directory and then ls to see all your folders and then 'cd \[foldername\]' and then 'ls' again and then if necessary 'cd \[foldername\]' again until you are in the folder that contains the files you recently extracted). If you know the absolute path from Home, you can just type 'cd ~/\[absolute_path\]/\[another_folder\]/link-degrees-main'
+3) Now open your terminal and navigate to the location where you saved your files. You can do this with cd: 'cd' once to go to your home directory and then ls to see all your folders and then 'cd \[foldername\]' and then 'ls' again and then if necessary 'cd \[foldername\]' again until you are in the folder that contains the files you recently extracted). If you know the absolute path from Home, you can just type 'cd ~/\[absolute_path\]\/link-degrees-main'
 
 4) Once you are in the folder containing the files 'degs.py' and 'README.md'
 	* Ensure you have python3 and pip3 installed
